@@ -4,4 +4,4 @@
 /srv/salt on master
 
 ## run command
-    salt -G 'os:windows' sls.state test1
+    salt -G 'os:windows' state.sls test1
